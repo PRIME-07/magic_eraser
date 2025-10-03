@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+/* Minimal reset and utility styles */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    color: inherit;
+    background: transparent;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.p-4 {
+    padding: 1rem;
+}
+
+.border {
+    border: 1px solid #e5e7eb;
+}
+
+.border-b {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.rounded {
+    border-radius: 0.5rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.gap-4 {
+    gap: 1rem;
+}
+
+.space-y-3>*+* {
+    margin-top: 0.75rem;
+}
+
+.space-y-4>*+* {
+    margin-top: 1rem;
+}
+
+.md\:grid-cols-2 {
+    grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+    .md\:grid-cols-2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.text-xl {
+    font-size: 1.25rem;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem;
+}
+
+.max-w-full {
+    max-width: 100%;
+}
+
+.h-auto {
+    height: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1 1 0%;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.gap-2 {
+    gap: 0.5rem;
+}
+
+.px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+}
+
+.py-2 {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.bg-blue-600 {
+    background-color: #2563eb;
+}
+
+.bg-blue-700 {
+    background-color: #1d4ed8;
+}
+
+.bg-indigo-600 {
+    background-color: #4f46e5;
+}
+
+.bg-green-600 {
+    background-color: #16a34a;
+}
+
+.bg-gray-100 {
+    background-color: #f3f4f6;
+}
+
+.hover\:bg-gray-200:hover {
+    background-color: #e5e7eb;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.rounded {
+    border-radius: 0.375rem;
+}
+
+.disabled\:opacity-50:disabled {
+    opacity: 0.5;
+}
