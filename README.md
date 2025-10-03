@@ -121,10 +121,10 @@ Application will open automatically at: http://localhost:5173
 
 ## 📌 Example Workflow
 
-Upload an image of a park.
+1) Upload an image of a park.
 
-Select a person you want to remove.
+2) Select a person you want to remove.
 
-Type "a grassy field with trees" in the prompt box.
+3) Type "a grassy field with trees" in the prompt box.
 
-Generate → See the person seamlessly replaced with realistic background.
+4) Generate → See the person seamlessly replaced with realistic background.
