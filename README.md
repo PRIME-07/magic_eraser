@@ -51,11 +51,11 @@ The back-end server handles all the AI model processing.
 
 ```bash
 # 1. Clone the repository (if you haven't already)
-git clone <your-repository-url>
+git clone https://github.com/PRIME-07/magic_eraser.git
 cd magic_eraser
 
 # 2. Create and activate the Conda environment
-conda create --name magic-eraser python=3.9 -y
+conda create --name magic-eraser python=3.10 -y
 conda activate magic-eraser
 
 # 3. Install Python dependencies
@@ -85,7 +85,7 @@ npm install
 You need to run both back-end and front-end servers in separate terminals.
 
 
-# ▶️ Start Back-End Server
+## ▶️ Start Back-End Server
 
 ```bash
 # From the root directory (with conda environment active)
