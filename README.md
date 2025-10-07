@@ -29,7 +29,7 @@ Simply upload an image, click to select an object, and describe what you want to
 - **Framework:** [React (Vite)](https://vitejs.dev/)  
 - **Language:** TypeScript  
 - **Styling:** Tailwind CSS  
-- **API Communication:** Axios  
+- **API Communication:** FastAPI  
 
 ---
 
